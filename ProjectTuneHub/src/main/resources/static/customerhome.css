@@ -1,0 +1,63 @@
+/* customerhome.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.non-premium, .premium {
+    margin-top: 20px;
+}
+
+/* Style for Premium section */
+.premium table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.premium th, .premium td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.premium th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.premium audio {
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* Optional: Add some spacing and styling for better readability */
+body {
+    margin: 20px;
+}

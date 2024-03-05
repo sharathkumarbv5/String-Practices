@@ -1,0 +1,47 @@
+/* createplaylists.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="submit"] {
+    margin-bottom: 15px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+/* Optional: Add some styling for better aesthetics */
+input[type="text"],
+input[type="checkbox"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
